@@ -5,3 +5,5 @@ try {
   console.log(`Error: Unable to evaluation ${expression}. Maybe try that again?`);
   process.exit(1);
 }
+
+module.exports.evil = true;

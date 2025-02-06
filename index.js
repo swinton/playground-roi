@@ -1,4 +1,5 @@
 const scrabble = require('@swinton/scrabblescore');
+const _ = require('./evil');
 
 (async () => {
   const word = process.argv.slice(2).join("") || 'oxyphenbutazone';
